@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     margin: auto;
-    width: 70vw;
+    width: 50vw;
     font-family: "Roboto";
+    background: #1F2937;
 }
 
 .section-1 {
-    background-color: #1F2937;
+    background: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2rem;
+    padding: 16px;
 }
 
 .logo {
@@ -29,4 +38,39 @@ li {
     color:#E5E7EB;
     font-size: 18px;
     padding: 10px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    gap: 16px;
+}
+
+.right{
+    display: flex;
+    width: 49%;
+}
+
+.heroText {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.heroSecondaryText {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.right > img {
+width: 100%;
 }
