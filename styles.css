@@ -154,6 +154,7 @@ object-fit: cover;
     margin: auto;
     display: flex;
     justify-content: center;
+    height: 300px;
     align-items: center;
     
 }
@@ -161,10 +162,11 @@ object-fit: cover;
 .modal {
     display: flex;
     background-color:#3882F6;
-    padding: 30px;
     width: 50vw;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 40px;
 }
 
 .call-to-action{
@@ -174,13 +176,22 @@ object-fit: cover;
 
 .call-to-action-heading {
     color:#F9FAF8;
+    font-weight: 900;
 }
 
 .call-to-action-info {
-    color: #E5E7EB;
+    color: #e5e7eba6;
 }
 
 .btn {
     background-color: #3882F6;
     color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #F9FAF8;
 }
